@@ -1,8 +1,9 @@
+# NOTE: for versions >= 3 see python3-pytest-mock.spec
 #
 # Conditional build:
 %bcond_without	tests	# py.test tests
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-pytest-mock.spec)
 
 Summary:	Thin-wrapper around the mock package for easier use with py.test
 Summary(pl.UTF-8):	Cienka warstwa obudowująca pakiet mock, ułatwiająca używanie wraz z py.test
