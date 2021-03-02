@@ -10,7 +10,7 @@ Summary(pl.UTF-8):	Cienka warstwa obudowująca pakiet mock, ułatwiająca używa
 Name:		python-pytest-mock
 # keep 2.x here for python2 support
 Version:	2.0.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/pytest-mock/
